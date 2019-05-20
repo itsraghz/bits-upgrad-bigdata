@@ -1,0 +1,28 @@
+Dart game
+
+Description
+You are playing a dart game. You are given 3 chances to throw the dart and score some points in all the 3 turns. Your score is the sum of all the 3 turns. Also, before throwing the dart and earning some points, you need to bid the score you will make.  There are 5 cases:
+
+    If you score same as the bid then your final effective score is double the points you bid. 
+    If it is more than the bid score, your effective point is equal to the bid score.
+    If it is less then your bid score but more than half the bid score, your effective point is 0.
+    If it is less than half your bid score, your effective score is -5.
+    If your score is negative, your effective score is -20.
+
+
+You need to create a class Dart, where you need to create a constructor and pass the bidding value and the scores of each of the three turns, during object creation i.e. you will pass four parameters in the constructor. Your class have three private attributes to store the score of your every turn. It also contains a method findEffectiveScore() to calculate the effective score. 
+
+The first line of the input is the bidding value. The next 3 numbers represent the score of each of the 3 turns.
+
+Input
+35
+16 7 12
+ 
+Output
+70
+
+Explanation
+The sum of all the 3 turns is 16+7+12 = 35 which is the same as the bid score. So, case 1 holds true and the effective value is double the bid score which is 70.
+
+Execution time limit
+5 seconds

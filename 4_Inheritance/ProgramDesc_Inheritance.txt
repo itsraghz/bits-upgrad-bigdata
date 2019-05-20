@@ -1,0 +1,16 @@
+Inheritance
+
+Description
+You are given 3 lines of input. In the first two lines you have to scan space separated details of the first and the second person respectively in the order: name, admission number, class, percentage, pass result, route number and blood group. Now you will be given an admission number, and you have to return the name, percentage and route of that person in a single line (space-separated). If the admission number is not present, return the error message 'No entry found'. Note that you have to make three classes, a student class(containing name, admission number, and class) and a report class that inherits the student class (and has the percentage and pass result) and a bus class that inherits the student class (and has the route number and blood group). Make appropriate methods where needed and in the driver class, make appropriate calls to these methods for the required output.
+
+Input
+A 1 9 99 yes 27 B+
+B 2 10 88 no 28 A+
+2
+
+Expected Output
+B 88 28 
+
+
+Execution time limit
+5 seconds

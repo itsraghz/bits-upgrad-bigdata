@@ -1,0 +1,13 @@
+Reverse a number
+
+Description
+You are given a number. You have to print the reverse of that number. Create a class reverse with one attribute num. Define a constructor and pass the number to be reversed at the time of object creation. It contains reverseNumber() method which returns the reverse of the given number.
+
+Input
+253
+
+Output
+352
+
+Execution time limit
+5 seconds
